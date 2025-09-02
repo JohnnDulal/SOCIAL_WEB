@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fbfd;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+  border-radius: 12px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin: 0 8px;
+  transition: color 0.3s ease-in-out, transform 0.2s;
+}
+
+.nav-link:hover {
+  color: #0a58ca;
+  transform: translateY(-2px);
+}
+
+/* Content Container */
+.info {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Intro Sections */
+.jud-intro, .exc-intro, .leg-intro {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jud-intro:hover, .exc-intro:hover, .leg-intro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+
+.jud-intro p, .exc-intro p, .leg-intro p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+/* Highlighted Text */
+.hig {
+  font-weight: bold;
+  color: #0d6efd;
+  background: #e7f1ff;
+  padding: 4px 8px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  .jud-intro, .exc-intro, .leg-intro {
+    padding: 20px;
+  }
+
+  .jud-intro p, .exc-intro p, .leg-intro p {
+    font-size: 1rem;
+  }
+}
+
+
+footer {
+  background: #f1f5f9;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: 0.95rem;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  margin: 0;
+}
+
